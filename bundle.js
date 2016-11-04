@@ -1,3 +1,75 @@
+require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var provideContext = function provideContext(contextKey, contextType) {
+  return _react2['default'].createClass({
+    childContextTypes: _defineProperty({}, contextKey, contextType),
+
+    getChildContext: function getChildContext() {
+      var _props = this.props;
+      var children = _props.children;
+
+      var props = _objectWithoutProperties(_props, ['children']);
+
+      return _defineProperty({}, contextKey, props);
+    },
+
+    render: function render() {
+      return _react2['default'].Children.only(this.props.children);
+    }
+  });
+};
+
+exports['default'] = provideContext;
+module.exports = exports['default'];
+
+},{"react":undefined}],2:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, '__esModule', {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+exports['default'] = function (contextKey, contextType) {
+  return function (Component) {
+    return _react2['default'].createClass({
+      contextTypes: _defineProperty({}, contextKey, contextType),
+
+      render: function render() {
+        var props = _extends({}, this.props, _defineProperty({}, contextKey, this.context[contextKey]));
+        return _react2['default'].createElement(Component, props);
+      }
+    });
+  };
+};
+
+module.exports = exports['default'];
+
+},{"react":undefined}],"react-super-responsive-table":[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, '__esModule', {
@@ -161,3 +233,5 @@ var TdInner = (function (_React$Component3) {
 
 var Td = withTableContext(TdInner);
 exports.Td = Td;
+
+},{"./provideContext":1,"./withContext":2,"react":undefined}]},{},[]);

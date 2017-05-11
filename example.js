@@ -86,32 +86,32 @@ var App = (function (_React$Component) {
                 { key: index },
                 _react2['default'].createElement(
                   _reactSuperResponsiveTable.Td,
-                  { key: index },
+                  null,
                   datum.Conference
                 ),
                 _react2['default'].createElement(
                   _reactSuperResponsiveTable.Td,
-                  { key: index },
+                  null,
                   datum.Year
                 ),
                 _react2['default'].createElement(
                   _reactSuperResponsiveTable.Td,
-                  { key: index },
+                  null,
                   datum.Location
                 ),
                 _react2['default'].createElement(
                   _reactSuperResponsiveTable.Td,
-                  { key: index },
+                  null,
                   datum.President
                 ),
                 _react2['default'].createElement(
                   _reactSuperResponsiveTable.Td,
-                  { key: index },
+                  null,
                   datum.Chair
                 ),
                 _react2['default'].createElement(
                   _reactSuperResponsiveTable.Td,
-                  { key: index },
+                  null,
                   datum.Theme
                 )
               );

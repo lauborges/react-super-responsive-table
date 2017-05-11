@@ -22,1122 +22,327 @@ var _reactDom2 = _interopRequireDefault(_reactDom);
 var _reactSuperResponsiveTable = require('react-super-responsive-table');
 
 var App = (function (_React$Component) {
-	_inherits(App, _React$Component);
+  _inherits(App, _React$Component);
 
-	function App() {
-		_classCallCheck(this, App);
+  function App() {
+    _classCallCheck(this, App);
 
-		_get(Object.getPrototypeOf(App.prototype), 'constructor', this).apply(this, arguments);
-	}
+    _get(Object.getPrototypeOf(App.prototype), 'constructor', this).apply(this, arguments);
+  }
 
-	_createClass(App, [{
-		key: 'render',
-		value: function render() {
-			return _react2['default'].createElement(
-				'div',
-				null,
-				_react2['default'].createElement(
-					_reactSuperResponsiveTable.Table,
-					null,
-					_react2['default'].createElement(
-						_reactSuperResponsiveTable.Thead,
-						null,
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Th,
-								null,
-								'Annual Conference'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Th,
-								null,
-								'Year'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Th,
-								null,
-								'Location'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Th,
-								null,
-								'President'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Th,
-								null,
-								'Program Chair'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Th,
-								null,
-								'Conference Theme'
-							)
-						)
-					),
-					_react2['default'].createElement(
-						_reactSuperResponsiveTable.Tbody,
-						null,
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'31'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2017'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Alabama Community College System (ACCS)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Mr. Toner Evans, Samford University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Kelly Birchfield, Auburn University Montgomery'
-							),
-							_react2['default'].createElement(_reactSuperResponsiveTable.Td, null)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'30'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2016'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Samford University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Angel Jowers, University of West Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Mr. Toner Evans, Samford University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Academ(ia) Awards: Best Practices/Performances in IR'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'29'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2015'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Eufaula (Wallace Community College Dothan)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Annette Cederholm, Snead State Community College'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Angel Jowers, University of West Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Back to the Future'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'28'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2014'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Huntsville (J.F. Drake State Community and Technical College)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Jon C. Acker, The University of Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Annette Cederholm, Snead State Community College'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Institutional Research…and Beyond!'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'27'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2013'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'The University of Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Mr. John McIntosh, Northwest-Shoals Community College'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Jon C. Acker, The University of Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Moving the Ball Forward'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'26'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2012'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Fairhope (Faulkner State Community College)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Mr. John McIntosh, Northwest-Shoals Community College'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Mr. John McIntosh, Northwest-Shoals Community College'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Institutional Research: Gaining Insight and Promoting Improvement'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'25'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2011'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Troy University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Tara George, Jefferson State Community College'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Patricia Pratt, University of West Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'The ART of Institutional Research'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'24'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2010'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Florence (University of North Alabama)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Alicia Simmons, Jacksonville State University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Tara George, Jefferson State Community College'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'In Tune with IR'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'23'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2009'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Opelika (Auburn University)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Diane Sherman, Alabama Commission on Higher Education (ACHE)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Alicia Simmons, Jacksonville State University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Making Difficult Decisions in Challenging Times'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'22'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2008'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Jacksonville State University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Yardley Bailey, University of Alabama System'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Diane Sherman, Alabama Commission on Higher Education (ACHE)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'A Breath of Fresh AIR'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'21'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2007'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Alabama A&M University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Sarah Latham, Samford University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Yardley Bailey, University of Alabama System'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Institutional Research: Is it Rocket Science?'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'20'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2006'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'The University of Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Cara Mia Pugh, Auburn University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Sarah Latham, Samford University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Twenty Years Later: New Challenges…New Opportunities'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'19'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2005'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Fairhope (Faulkner State Community College)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Kris Mascetti, Auburn University at Montgomery'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Cara Mia Pugh, Auburn University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Off to a Good Start'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'18'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2004'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'University of Alabama at Birmingham'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Mr. Dan Tennimon, Troy State University Montgomery'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Kris Mascetti, Auburn University at Montgomery'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Research-Based Planning and Evaluation'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'17'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2003'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Troy State University Montgomery'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Jim Eck, Samford University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Mr. Dan Tennimon, Troy State University Montgomery'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Non-Traditional: The New Majority'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'16'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2002'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Samford University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Priscilla Holland, University of North Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Jim Eck, Samford University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Alike or Different?: Product Differentiation and the Institutional Researcher'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'15'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2001'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'University of North Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Mimi McDaniel Johnson, Alabama State University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Priscilla Holland, University of North Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Data Driven Decisions'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'14'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2000'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Gulf Shores (Faulkner State Community College and Bishop State Community College)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Teresa Hall, University of Alabama at Birmingham'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Mimi McDaniel Johnson, Alabama State University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'IR: Thinking Outside of the Box'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'13'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1999'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Auburn University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Anna T. Waggener, University of South Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Teresa Hall, University of Alabama at Birmingham'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ready or Not, It\'s Here: IR Meets Y2K'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'12'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1998'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'University of Alabama in Huntsville'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Myrtes Dunn Green, Stillman College'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Anna T. Waggener, University of South Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Challenges and Responses: Anticipating the Twenty-First Century'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'11'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1997'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'The University of Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Julia S. Rogers, University of Montevallo'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Myrtes Dunn Green, Stillman College'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Public Perceptions and Misperceptions of Accountability: The Challenges for Institutional Research'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'10'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1996'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Samford University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Mr. Sam Lowther, Auburn University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Julia S. Rogers, University of Montevallo'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Indicators, Outcomes, and Effectiveness: Quantifying the Past and Preparing for the Future'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'9'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1995'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Troy State University Dothan'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Judy Miller, Enterprise State Junior College'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Mr. Sam Lowther, Auburn University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'The Changing Face of Institutional Research: New Responsibilities and New Techniques'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'8'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1994'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'University of Alabama in Huntsville'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Harriott D. Calhoun, Jefferson State Community College'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Judy Miller, Enterprise State Junior College'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Technology and Ethics: Implications for Institutional Research'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'7'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1993'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'University of Montevallo'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Albert M. Searway, Jacksonville State University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Harriott D. Calhoun, Jefferson State Community College'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Quality and Effectiveness - Issues of the Decade'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'6'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1992'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'University of South Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Mr. Don E. Dailey, University of Alabama at Birmingham'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Albert M. Searway, Jacksonville State University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Effectiveness in Higher Education'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'5'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1991'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'The University of Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Kitty C. Collier, Alabama Commission on Higher Education (ACHE)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Mr. Don E. Dailey, University of Alabama at Birmingham'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Putting It All Together: Institutional Research and Planning in the 1990\'s'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'4'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1990'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Auburn University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Debbie Dailey, University of Alabama at Birmingham'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Kitty C. Collier, Alabama Commission on Higher Education (ACHE)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'From Statistics to Strategy: Making the Most of Institutional Research'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'3'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1989'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'University of Alabama at Birmingham'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Thomas McAlpine, Alabama A&M University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Debbie Dailey, University of Alabama at Birmingham'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Developing the Institutional Research Office: A Nuts and Bolts Approach'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'2'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1988'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Alabama State University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Mr. Alfred H. Yeager, University of South Alabama'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Thomas McAlpine, Alabama A&M University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Building and Expanding Institutional Research'
-							)
-						),
-						_react2['default'].createElement(
-							_reactSuperResponsiveTable.Tr,
-							null,
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'1987'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Birmingham (Organizational Meeting)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Ms. Kay Staub, The University of Alabama (Convener)'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Dr. Gerald S. Leischuck, Auburn University'
-							),
-							_react2['default'].createElement(
-								_reactSuperResponsiveTable.Td,
-								null,
-								'Strategic Planning and Outcomes Assessment'
-							)
-						)
-					)
-				)
-			);
-		}
-	}]);
+  _createClass(App, [{
+    key: 'render',
+    value: function render() {
+      return _react2['default'].createElement(
+        'div',
+        null,
+        _react2['default'].createElement(
+          _reactSuperResponsiveTable.Table,
+          null,
+          _react2['default'].createElement(
+            _reactSuperResponsiveTable.Thead,
+            null,
+            _react2['default'].createElement(
+              _reactSuperResponsiveTable.Tr,
+              null,
+              _react2['default'].createElement(
+                _reactSuperResponsiveTable.Th,
+                null,
+                'Annual Conference'
+              ),
+              _react2['default'].createElement(
+                _reactSuperResponsiveTable.Th,
+                null,
+                'Year'
+              ),
+              _react2['default'].createElement(
+                _reactSuperResponsiveTable.Th,
+                null,
+                'Location'
+              ),
+              _react2['default'].createElement(
+                _reactSuperResponsiveTable.Th,
+                null,
+                'President'
+              ),
+              _react2['default'].createElement(
+                _reactSuperResponsiveTable.Th,
+                null,
+                'Program Chair'
+              ),
+              _react2['default'].createElement(
+                _reactSuperResponsiveTable.Th,
+                null,
+                'Conference Theme'
+              )
+            )
+          ),
+          _react2['default'].createElement(
+            _reactSuperResponsiveTable.Tbody,
+            null,
+            data.map(function (datum, index) {
+              return _react2['default'].createElement(
+                _reactSuperResponsiveTable.Tr,
+                { key: index },
+                _react2['default'].createElement(
+                  _reactSuperResponsiveTable.Td,
+                  { key: index },
+                  datum.Conference
+                ),
+                _react2['default'].createElement(
+                  _reactSuperResponsiveTable.Td,
+                  { key: index },
+                  datum.Year
+                ),
+                _react2['default'].createElement(
+                  _reactSuperResponsiveTable.Td,
+                  { key: index },
+                  datum.Location
+                ),
+                _react2['default'].createElement(
+                  _reactSuperResponsiveTable.Td,
+                  { key: index },
+                  datum.President
+                ),
+                _react2['default'].createElement(
+                  _reactSuperResponsiveTable.Td,
+                  { key: index },
+                  datum.Chair
+                ),
+                _react2['default'].createElement(
+                  _reactSuperResponsiveTable.Td,
+                  { key: index },
+                  datum.Theme
+                )
+              );
+            })
+          )
+        )
+      );
+    }
+  }]);
 
-	return App;
+  return App;
 })(_react2['default'].Component);
+
+var data = [{
+  'Conference': 31,
+  'Year': 2017,
+  'Location': 'Alabama Community College System (ACCS)',
+  'President': 'Mr. Toner Evans, Samford University',
+  'Chair': 'Ms. Kelly Birchfield, Auburn University Montgomery',
+  'Theme': 'COMMUNITY!'
+}, {
+  'Conference': 30,
+  'Year': 2016,
+  'Location': 'Samford University',
+  'President': 'Ms. Angel Jowers, University of West Alabama',
+  'Chair': 'Mr. Toner Evans, Samford University',
+  'Theme': 'Academ(ia) Awards: Best Practices/Performances in IR'
+}, {
+  'Conference': 29,
+  'Year': 2015,
+  'Location': 'Eufaula (Wallace Community College Dothan)',
+  'President': 'Dr. Annette Cederholm, Snead State Community College',
+  'Chair': 'Ms. Angel Jowers, University of West Alabama',
+  'Theme': 'Back to the Future'
+}, {
+  'Conference': 28,
+  'Year': 2014,
+  'Location': 'Huntsville (J.F. Drake State Community and Technical College)',
+  'President': 'Dr. Jon C. Acker, The University of Alabama',
+  'Chair': 'Dr. Annette Cederholm, Snead State Community College',
+  'Theme': 'Institutional Research…and Beyond!'
+}, {
+  'Conference': 27,
+  'Year': 2013,
+  'Location': 'The University of Alabama',
+  'President': 'Mr. John McIntosh, Northwest-Shoals Community College',
+  'Chair': 'Dr. Jon C. Acker, The University of Alabama',
+  'Theme': 'Moving the Ball Forward'
+}, {
+  'Conference': 26,
+  'Year': 2012,
+  'Location': 'Fairhope (Faulkner State Community College)',
+  'President': 'Mr. John McIntosh, Northwest-Shoals Community College',
+  'Chair': 'Mr. John McIntosh, Northwest-Shoals Community College',
+  'Theme': 'Institutional Research: Gaining Insight and Promoting Improvement'
+}, {
+  'Conference': 25,
+  'Year': 2011,
+  'Location': 'Troy University',
+  'President': 'Ms. Tara George, Jefferson State Community College',
+  'Chair': 'Ms. Patricia Pratt, University of West Alabama',
+  'Theme': 'The ART of Institutional Research'
+}, {
+  'Conference': 24,
+  'Year': 2010,
+  'Location': 'Florence (University of North Alabama)',
+  'President': 'Dr. Alicia Simmons, Jacksonville State University',
+  'Chair': 'Ms. Tara George, Jefferson State Community College',
+  'Theme': 'In Tune with IR'
+}, {
+  'Conference': 23,
+  'Year': 2009,
+  'Location': 'Opelika (Auburn University)',
+  'President': 'Ms. Diane Sherman, Alabama Commission on Higher Education (ACHE)',
+  'Chair': 'Dr. Alicia Simmons, Jacksonville State University',
+  'Theme': 'Making Difficult Decisions in Challenging Times'
+}, {
+  'Conference': 22,
+  'Year': 2008,
+  'Location': 'Jacksonville State University',
+  'President': 'Dr. Yardley Bailey, University of Alabama System',
+  'Chair': 'Ms. Diane Sherman, Alabama Commission on Higher Education (ACHE)',
+  'Theme': 'A Breath of Fresh AIR'
+}, {
+  'Conference': 21,
+  'Year': 2007,
+  'Location': 'Alabama A&M University',
+  'President': 'Dr. Sarah Latham, Samford University',
+  'Chair': 'Dr. Yardley Bailey, University of Alabama System',
+  'Theme': 'Institutional Research: Is it Rocket Science?'
+}, {
+  'Conference': 20,
+  'Year': 2006,
+  'Location': 'The University of Alabama',
+  'President': 'Dr. Cara Mia Pugh, Auburn University',
+  'Chair': 'Dr. Sarah Latham, Samford University',
+  'Theme': 'Twenty Years Later: New Challenges…New Opportunities'
+}, {
+  'Conference': 19,
+  'Year': 2005,
+  'Location': 'Fairhope (Faulkner State Community College)',
+  'President': 'Ms. Kris Mascetti, Auburn University at Montgomery',
+  'Chair': 'Dr. Cara Mia Pugh, Auburn University',
+  'Theme': 'Off to a Good Start'
+}, {
+  'Conference': 18,
+  'Year': 2004,
+  'Location': 'University of Alabama at Birmingham',
+  'President': 'Mr. Dan Tennimon, Troy State University Montgomery',
+  'Chair': 'Ms. Kris Mascetti, Auburn University at Montgomery',
+  'Theme': 'Research-Based Planning and Evaluation'
+}, {
+  'Conference': 17,
+  'Year': 2003,
+  'Location': 'Troy State University Montgomery',
+  'President': 'Dr. Jim Eck, Samford University',
+  'Chair': 'Mr. Dan Tennimon, Troy State University Montgomery',
+  'Theme': 'Non-Traditional: The New Majority'
+}, {
+  'Conference': 16,
+  'Year': 2002,
+  'Location': 'Samford University',
+  'President': 'Dr. Priscilla Holland, University of North Alabama',
+  'Chair': 'Dr. Jim Eck, Samford University',
+  'Theme': 'Alike or Different?: Product Differentiation and the Institutional Researcher'
+}, {
+  'Conference': 15,
+  'Year': 2001,
+  'Location': 'University of North Alabama',
+  'President': 'Ms. Mimi McDaniel Johnson, Alabama State University',
+  'Chair': 'Dr. Priscilla Holland, University of North Alabama',
+  'Theme': 'Data Driven Decisions'
+}, {
+  'Conference': 14,
+  'Year': 2000,
+  'Location': 'Gulf Shores (Faulkner State Community College and Bishop State Community College)',
+  'President': 'Ms. Teresa Hall, University of Alabama at Birmingham',
+  'Chair': 'Ms. Mimi McDaniel Johnson, Alabama State University',
+  'Theme': 'IR: Thinking Outside of the Box'
+}, {
+  'Conference': 13,
+  'Year': 1999,
+  'Location': 'Auburn University',
+  'President': 'Dr. Anna T. Waggener, University of South Alabama',
+  'Chair': 'Ms. Teresa Hall, University of Alabama at Birmingham',
+  'Theme': "Ready or Not, It's Here: IR Meets Y2K"
+}, {
+  'Conference': 12,
+  'Year': 1998,
+  'Location': 'University of Alabama in Huntsville',
+  'President': 'Dr. Myrtes Dunn Green, Stillman College',
+  'Chair': 'Dr. Anna T. Waggener, University of South Alabama',
+  'Theme': 'Challenges and Responses: Anticipating the Twenty-First Century'
+}, {
+  'Conference': 11,
+  'Year': 1997,
+  'Location': 'The University of Alabama',
+  'President': 'Dr. Julia S. Rogers, University of Montevallo',
+  'Chair': 'Dr. Myrtes Dunn Green, Stillman College',
+  'Theme': 'Public Perceptions and Misperceptions of Accountability: The Challenges for Institutional Research'
+}, {
+  'Conference': 10,
+  'Year': 1996,
+  'Location': 'Samford University',
+  'President': 'Mr. Sam Lowther, Auburn University',
+  'Chair': 'Dr. Julia S. Rogers, University of Montevallo',
+  'Theme': 'Indicators, Outcomes, and Effectiveness: Quantifying the Past and Preparing for the Future'
+}, {
+  'Conference': 9,
+  'Year': 1995,
+  'Location': 'Troy State University Dothan',
+  'President': 'Dr. Judy Miller, Enterprise State Junior College',
+  'Chair': 'Mr. Sam Lowther, Auburn University',
+  'Theme': 'The Changing Face of Institutional Research: New Responsibilities and New Techniques'
+}, {
+  'Conference': 8,
+  'Year': 1994,
+  'Location': 'University of Alabama in Huntsville',
+  'President': 'Dr. Harriott D. Calhoun, Jefferson State Community College',
+  'Chair': 'Dr. Judy Miller, Enterprise State Junior College',
+  'Theme': 'Technology and Ethics: Implications for Institutional Research'
+}, {
+  'Conference': 7,
+  'Year': 1993,
+  'Location': 'University of Montevallo',
+  'President': 'Dr. Albert M. Searway, Jacksonville State University',
+  'Chair': 'Dr. Harriott D. Calhoun, Jefferson State Community College',
+  'Theme': 'Quality and Effectiveness - Issues of the Decade'
+}, {
+  'Conference': 6,
+  'Year': 1992,
+  'Location': 'University of South Alabama',
+  'President': 'Mr. Don E. Dailey, University of Alabama at Birmingham',
+  'Chair': 'Dr. Albert M. Searway, Jacksonville State University',
+  'Theme': 'Effectiveness in Higher Education'
+}, {
+  'Conference': 5,
+  'Year': 1991,
+  'Location': 'The University of Alabama',
+  'President': 'Dr. Kitty C. Collier, Alabama Commission on Higher Education (ACHE)',
+  'Chair': 'Mr. Don E. Dailey, University of Alabama at Birmingham',
+  'Theme': "Putting It All Together: Institutional Research and Planning in the 1990's"
+}, {
+  'Conference': 4,
+  'Year': 1990,
+  'Location': 'Auburn University',
+  'President': 'Ms. Debbie Dailey, University of Alabama at Birmingham',
+  'Chair': 'Dr. Kitty C. Collier, Alabama Commission on Higher Education (ACHE)',
+  'Theme': 'From Statistics to Strategy: Making the Most of Institutional Research'
+}, {
+  'Conference': 3,
+  'Year': 1989,
+  'Location': 'University of Alabama at Birmingham',
+  'President': 'Dr. Thomas McAlpine, Alabama A&M University',
+  'Chair': 'Ms. Debbie Dailey, University of Alabama at Birmingham',
+  'Theme': 'Developing the Institutional Research Office: A Nuts and Bolts Approach'
+}, {
+  'Conference': 2,
+  'Year': 1988,
+  'Location': 'Alabama State University',
+  'President': 'Mr. Alfred H. Yeager, University of South Alabama',
+  'Chair': 'Dr. Thomas McAlpine, Alabama A&M University',
+  'Theme': 'Building and Expanding Institutional Research'
+}, {
+  'Conference': 1,
+  'Year': 1987,
+  'Location': 'Birmingham (Organizational Meeting)',
+  'President': 'Ms. Kay Staub, The University of Alabama (Convener)',
+  'Chair': 'Dr. Gerald S. Leischuck, Auburn University',
+  'Theme': 'Strategic Planning and Outcomes Assessment'
+}];
 
 _reactDom2['default'].render(_react2['default'].createElement(App, null), document.getElementById('app'));
 
